@@ -43,6 +43,14 @@ from grag.models.kgrag import KGRAG
 from grag.models.mindmap_rag import MindMapRAG
 from grag.models.edge_rag import EdgeRAG
 from grag.models.g_retriever import GRetriever
+from grag.models.lightrag import LightRAG
+from grag.models.think_on_graph import ThinkOnGraph
+from grag.models.fastgraphrag import FastGraphRAG
+from grag.models.surge import SURGE
+from grag.models.struct_rag import StructRAG
+from grag.models.subgraph_rag import SubgraphRAG
+from grag.models.graph_reader import GraphReader
+from grag.models.drift_search import DriftSearch
 
 __all__ = [
     "MicrosoftGraphRAG",
@@ -52,4 +60,12 @@ __all__ = [
     "MindMapRAG",
     "EdgeRAG",
     "GRetriever",
+    "LightRAG",
+    "ThinkOnGraph",
+    "FastGraphRAG",
+    "SURGE",
+    "StructRAG",
+    "SubgraphRAG",
+    "GraphReader",
+    "DriftSearch",
 ]
